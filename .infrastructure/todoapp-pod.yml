@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: todoapp
-  namespace: todoapp
+  namespace: mateapp
   labels:
     app: todoapp
 spec:
@@ -30,7 +30,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: todoapp-1
-  namespace: todoapp
+  namespace: mateapp
   labels:
     app: todoapp
 spec:
